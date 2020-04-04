@@ -1,0 +1,65 @@
+Script started on 2020-04-03 22:46:39-04:00 [TERM="xterm" TTY="/dev/pts/20" COLUMNS="93" LINES="49"]
+bash-5.0$ clear
+[H[2J[3Jbash-5.0$ ./asn3.sh inputgraph.txt
+Note: PrimMST.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+20
+Input graph:
+1 - 2 weight: 12
+1 - 3 weight: 10
+2 - 4 weight: 20
+2 - 5 weight: 20
+3 - 6 weight: 30
+3 - 7 weight: 28
+4 - 8 weight: 40
+4 - 9 weight: 36
+5 - 10 weight: 50
+5 - 11 weight: 44
+6 - 12 weight: 60
+6 - 13 weight: 52
+7 - 14 weight: 70
+7 - 15 weight: 50
+8 - 16 weight: 80
+8 - 17 weight: 68
+9 - 18 weight: 95
+9 - 19 weight: 76
+10 - 20 weight: 100
+11 - 12 weight: 5
+13 - 14 weight: 5
+17 - 18 weight: 5
+19 - 20 weight: 5
+1 - 6 weight: 3
+2 - 7 weight: 6
+3 - 8 weight: 9
+6 - 11 weight: 18
+7 - 12 weight: 21
+8 - 13 weight: 24
+9 - 14 weight: 27
+10 - 15 weight: 30
+11 - 16 weight: 33
+ 
+Minimum Spanning Tree: 
+Edge: 2-1 weight: 12
+Edge: 3-1 weight: 10
+Edge: 4-2 weight: 20
+Edge: 5-2 weight: 20
+Edge: 6-1 weight: 3
+Edge: 7-2 weight: 6
+Edge: 8-3 weight: 9
+Edge: 9-14 weight: 27
+Edge: 10-15 weight: 30
+Edge: 11-6 weight: 18
+Edge: 12-11 weight: 5
+Edge: 13-8 weight: 24
+Edge: 14-13 weight: 5
+Edge: 15-7 weight: 50
+Edge: 16-11 weight: 33
+Edge: 17-8 weight: 68
+Edge: 18-17 weight: 5
+Edge: 19-9 weight: 76
+Edge: 20-19 weight: 5
+Total minimum key: 426
+bash-5.0$ exit
+exit
+
+Script done on 2020-04-03 22:47:10-04:00 [COMMAND_EXIT_CODE="0"]
