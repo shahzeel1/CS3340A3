@@ -1,7 +1,14 @@
-
+/**
+ * 
+ * 
+ * This class creates the edge node for the graph
+ * @author Zeel Shah
+ * 250970094
+ *
+ */
 public class ParentNodes {
-	private int parentid; 
-	private int key;
+	private int parentid; // stores the final id for MST
+	private int key;// stores final key for MST
 	
 	ParentNodes(int parentid, int key)
 	{

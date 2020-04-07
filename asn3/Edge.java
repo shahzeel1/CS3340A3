@@ -1,8 +1,13 @@
-//This class creates the edge node for the graph
+/**
+ * This class creates the edges for the graph
+ * @author Zeel Shah
+ * 250970094
+ *
+ */
 public class Edge {
-	private int v1;
-	private int v2;
-	private int weight;
+	private int v1;// starting vertex
+	private int v2;//destination vertex
+	private int weight;//weight of edge
 	
 	public Edge (int vertex1, int vertex2, int weight)
 	{
